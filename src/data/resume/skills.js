@@ -4,11 +4,11 @@ const skills = [
     competency: 2,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
-  {
-    title: 'Node.JS',
-    competency: 1,
-    category: ['Web Development', 'Javascript'],
-  },
+  // {
+  //   title: 'Node.JS',
+  //   competency: 1,
+  //   category: ['Web Development', 'Javascript'],
+  // },
   {
     title: 'React',
     competency: 1,
@@ -161,7 +161,7 @@ const skills = [
   },
   {
     title: 'Python',
-    competency: 5,
+    competency: 4,
     category: ['Languages', 'Python', 'ML Engineering'],
   },
   // {
@@ -211,7 +211,7 @@ const skills = [
   },
   {
     title: 'Matplotlib',
-    competency: 4,
+    competency: 3,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
