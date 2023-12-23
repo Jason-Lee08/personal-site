@@ -26,11 +26,7 @@ const sections = {
 const Resume = () => (
   <Main
     title="Resume"
-<<<<<<< HEAD
     description="Jason Lee's Resume. Berkeley AI Research Lab and Meditrina Inc.."
-=======
-    description="Jason's Resume." // Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
->>>>>>> 7d53978baf3cc7aba86bd66720f2749dd374e10d
   >
     <article className="post" id="resume">
       <header>
