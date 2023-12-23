@@ -2,7 +2,7 @@
 
 I'm a 3rd-year undergraduate at UC Berkeley studying EECS. My main academic interests include artificial intelligence (deep learning, computer vision, LLMs) and the intersection between software and hardware (i.e. embedded systems, intelligent robots). I'm also pasionate about entrepreneurship and brainstorming ideas that have the scaling potential to change the world. I am particularly interested in ideas/projects with high social impact, especially utilizing technology to mitigate human-induced climate change.
 
-# Outside of my nerd pursuits, I enjoy
+# Outside of my nerdy pursuits, I enjoy
 
 - Playing/watching ice hockey
 - Trying new recipes
