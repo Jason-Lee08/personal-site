@@ -38,10 +38,7 @@ const About = () => {
           {markdown}
         </Markdown>
         <div className="image-container">
-          {/* <div className="caption">
-            <h4>Here&apos;s 70% of my personality in one picture</h4>
-          </div> */}
-          <img src={`${PUBLIC_URL}/images/hockey_laptop.jpeg`} alt="Me in my hockey gear programming on my laptop" />
+          <img src={`${PUBLIC_URL}/images/hockey_laptop.jpeg`} alt="Me in my hockey gear programming on my laptop" className="responsive-image" />
         </div>
       </article>
     </Main>
