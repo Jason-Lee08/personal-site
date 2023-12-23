@@ -6,10 +6,10 @@ import Main from '../layouts/Main';
 const Index = () => {
   const githubLink = <a href="https://github.com/mldangelo/personal-site">here</a>;
   const descript = (
-  <p>
-    {'The majority of this website\'s code is from Michael D\'Angelo\'s open-source website available'} {githubLink}
-    {' on Github. While customizing this website, I accomplished my goal of learning basic HTML, Javascript, and CSS.'}
-  </p>
+    <p>
+      {'The majority of this website\'s code is from Michael D\'Angelo\'s open-source website available'} {githubLink}
+      {' on Github. While customizing this website, I accomplished my goal of learning basic HTML, Javascript, and CSS.'}
+    </p>
   );
 
   return (
