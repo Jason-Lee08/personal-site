@@ -12,6 +12,17 @@
  * @property {string[]} highlights - plain text highlights of the position (bulleted list)
  */
 const work = [
+    {
+        name: 'Apple Inc.',
+        position: 'CoreGraphics Software Engineering Intern',
+        url: 'https://apple.com/',
+        startDate: '2024-05',
+        summary: `Apple Inc. is a global tech giant known for creating sleek, high-performance devices like the iPhone, Mac, and iPad, along with groundbreaking software and services. 
+        CoreGraphics is an Apple team and framework that releases software across all platforms (MacOS, iOS, WatchOS, VisionOS, etc.)`,
+        highlights: [
+          'Pending approval...',
+        ],
+      },
   {
     name: 'Berkeley AI Research Laboratory',
     position: 'Undergraduate Researcher',
@@ -22,9 +33,10 @@ const work = [
       BAIR includes over 50 faculty and more than 300 graduate students and postdoctoral researchers pursuing research on fundamental advances in the above areas as well as cross-cutting themes including multi-modal deep learning,
       human-compatible AI, and connecting AI with other scientific disciplines and the humanities.`,
     highlights: [
-      'Researching the effectiveness of tuning models using RLHF for LLM security',
-      'Conducted experiments with various SL:RLHF splits on ~28M parameter models to identify the most optimal ratio',
-      'Designed/Implemented custom evaluation metrics and graphs to quantify/visualize model performance',
+      'Implemented batch prompting & attention masking using PyTorch for local model batch evaluation, increasing LLM throughput by over 4x',
+      'Programmed robust experiments and evaluation pipelines to compare various LLM tuning strategies (DPO, RLHF, and Contrastive-SFT), providing insight into best practices for improving alignment and safeguarding against prompt injections',
+      'Designed/Coded 10+ experiments using Python HuggingFace to analyze TinyStories-33M LLM model’s performance after training on various supervised learning(SL)/RL splits; Concluded that SL was ∼15% more effective than RL on simple language tasks
+',
     ],
   },
   {
@@ -32,6 +44,7 @@ const work = [
     position: 'Software Engineering Consultant',
     url: 'https://www.avetasystem.com/home',
     startDate: '2022-09',
+    endDate: '2023-08',
     summary: `Meditrina is an innovative start up Company located in San Jose, CA, and founded in 2016 developed the Aveta™ hysteroscopy suite which was designed to provide physicians with the best care in their diagnosis and treatment of endometrial polyps and uterine fibroids.
       The system seamlessly integrates into any operating, procedure, or exam room. This new hysteroscopy system is an all-in-one platform which includes the single-use Aveta™ Pearl Hysteroscope for myomectomy,
       and the single-use Aveta™ Coral Hysteroscope for polypectomy procedures with integrated tissue resection and fluid management capability.
