@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 const Index = () => {
-  const githubLink = <a href="https://github.com/mldangelo/personal-site">here</a>;
-
   return (
     <Main
       description={
