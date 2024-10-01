@@ -18,7 +18,7 @@ const work = [
         url: 'https://apple.com/',
         startDate: '2024-05',
         summary: `Apple Inc. is a global tech giant known for creating sleek, high-performance devices like the iPhone, Mac, and iPad, along with groundbreaking software and services. 
-        CoreGraphics is an Apple team and framework that releases software across all platforms (MacOS, iOS, WatchOS, VisionOS, etc.)`,
+        CoreGraphics is an Apple team and framework that releases software across all platforms (MacOS, iOS, WatchOS, VisionOS, etc.), such as ImageIO and `,
         highlights: [
           'Pending approval...',
         ],
@@ -35,8 +35,7 @@ const work = [
     highlights: [
       'Implemented batch prompting & attention masking using PyTorch for local model batch evaluation, increasing LLM throughput by over 4x',
       'Programmed robust experiments and evaluation pipelines to compare various LLM tuning strategies (DPO, RLHF, and Contrastive-SFT), providing insight into best practices for improving alignment and safeguarding against prompt injections',
-      'Designed/Coded 10+ experiments using Python HuggingFace to analyze TinyStories-33M LLM model’s performance after training on various supervised learning(SL)/RL splits; Concluded that SL was ∼15% more effective than RL on simple language tasks
-',
+      'Designed/Coded 10+ experiments using Python HuggingFace to analyze TinyStories-33M LLM model’s performance after training on various supervised learning(SL)/RL splits; Concluded that SL was ∼15% more effective than RL on simple language tasks',
     ],
   },
   {
