@@ -12,17 +12,17 @@
  * @property {string[]} highlights - plain text highlights of the position (bulleted list)
  */
 const work = [
-    {
-        name: 'Apple Inc.',
-        position: 'CoreGraphics Software Engineering Intern',
-        url: 'https://apple.com/',
-        startDate: '2024-05',
-        summary: `Apple Inc. is a global tech giant known for creating sleek, high-performance devices like the iPhone, Mac, and iPad, along with groundbreaking software and services. 
-        CoreGraphics is an Apple team and framework that releases software across all platforms (MacOS, iOS, WatchOS, VisionOS, etc.), such as ImageIO and `,
-        highlights: [
-          'Pending approval...',
-        ],
-      },
+  {
+    name: 'Apple Inc.',
+    position: 'CoreGraphics Software Engineering Intern',
+    url: 'https://apple.com/',
+    startDate: '2024-05',
+    summary: `Apple Inc. is a global tech giant known for creating sleek, high-performance devices like the iPhone, Mac, and iPad, along with groundbreaking software and services. 
+    CoreGraphics is an Apple team and framework that releases software across all platforms (MacOS, iOS, WatchOS, VisionOS, etc.), such as ImageIO and `,
+    highlights: [
+      'Pending approval...',
+    ],
+  },
   {
     name: 'Berkeley AI Research Laboratory',
     position: 'Undergraduate Researcher',
