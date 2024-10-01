@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-const Index = () => {
+const Index = () => (
     <Main
       description={
         'Jason Lee\'s personal website. UC Berkeley Engineering student, '
@@ -29,6 +29,6 @@ const Index = () => {
         </p>
       </article>
     </Main>
-};
+);
 
 export default Index;
